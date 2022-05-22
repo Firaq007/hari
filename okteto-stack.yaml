@@ -1,7 +1,6 @@
 services:
   fastapi:
     public: true
-    image: .
     build: .
     replicas: 1
     ports:
